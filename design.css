@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: url('background-map.jpg') repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2em;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ffeb3b;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+}
+
+.button, .nav-button {
+  display: inline-block;
+  background-color: #ff9800;
+  color: white;
+  padding: 0.6em 1.2em;
+  margin: 0.5em;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px #c67600;
+  transition: transform 0.2s;
+}
+
+.button:hover, .nav-button:hover {
+  transform: scale(1.05);
+}
+
+section {
+  margin: 2em 0;
+  background-color: rgba(85, 136, 68, 0.8);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  border: 4px solid #fff;
+}
+
+footer {
+  font-size: 0.8em;
+  color: #ccc;
+  margin-top: 2em;
+}
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('background-map.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1.5em 0;
+}
